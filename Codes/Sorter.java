@@ -30,8 +30,12 @@ public class Sorter{
             arr[minIndex] = arr[i];
             arr[i] = temp;
         }
-        public static void sort(int[] arr) {
+        public static void sort1(int[] arr) {
         insertionSort(arr);
         
+    }
+
+    public static void sort2(int[] arr) {
+        selectionSort(arr);
     }
 }
